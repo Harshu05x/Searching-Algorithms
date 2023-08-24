@@ -19,6 +19,10 @@ int first_occurrence(vector<int>& arr,int key){
     }
    return ans;
 }
+
+
+
+
 int last_occurrence(vector<int>& arr,int key){
     int l = 0;
     int h = arr.size()-1;
